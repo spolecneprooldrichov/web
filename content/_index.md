@@ -4,6 +4,8 @@ date: 2026-09-01
 draft: false
 ---
 
+![Společně pro Oldřichov](spolecne-foto.jpg)
+
 Jsme nezávislí kandidáti, kteří kandidují do komunálních voleb 2026 v Oldřichově v Hájích.
 
 * Seznamte se s tím, [co jsme dokázali v minulém volebním období](/co-jsme-udelali/).
