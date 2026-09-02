@@ -1,15 +1,14 @@
 baseURL = "https://spolecneprooldrichov.cz/"
 languageCode = "cs"
 title = "Společně pro Oldřichov"
-#theme = "simple"
 
 [params]
   description = "Společně pro Oldřichov – nezávislí kandidáti do komunálních voleb 2026"
 
 [menu]
   [[menu.main]]
-    name = "Domů"
-    url = "/"
+    name = "Kdo jsme"
+    url = "/kandidati/"
     weight = 1
 
   [[menu.main]]
@@ -23,11 +22,6 @@ title = "Společně pro Oldřichov"
     weight = 3
 
   [[menu.main]]
-    name = "Kdo jsme"
-    url = "/kandidati/"
-    weight = 4
-
-  [[menu.main]]
     name = "Kontakt"
     url = "/kontakt/"
-    weight = 5
+    weight = 4
