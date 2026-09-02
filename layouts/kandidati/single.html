@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <article>
+    <h1>{{ .Title }} – {{ .Params.blurb }}</h1>
+
+      {{ $photo := print "images/" .Params.photo }}
+      {{ $image := resources.Get $photo }}
+      {{ with $image }}
+        {{ with .Resize "300x" }}
+          <img class="candidate-photo" src="{{ .RelPermalink }}" 
+               width="{{ .Width }}" height="{{ .Height }}">
+        {{ end }}
+      {{ end }}
+
+    <h3>{{ .Params.job }} &bullet; {{ .Params.age }} let</h3>
+    <div class="content">{{ .Content }}</div>
+  </article>
+{{ end }}

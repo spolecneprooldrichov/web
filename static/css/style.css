@@ -1,0 +1,22 @@
+/* Basic styles for the site */
+body { font-family: Arial, Helvetica, sans-serif; line-height: 1.6; margin:0; padding:0; color:#222 }
+
+.container { max-width:900px; margin:0 auto; padding:1rem }
+
+header{ background:#003366; color:#fff }
+
+.site-title { margin:0; padding:.75rem 0 }
+.site-title a{ color: #fff; text-decoration:none }
+
+nav .menu{ list-style:none; margin:0; padding:0; display:flex; gap:1rem }
+nav a{ color:#fff; text-decoration:none }
+
+main{ padding:1rem }
+
+footer{ background:#f4f4f4; padding:.5rem 0; text-align:center; clear: both; }
+
+.candidate-photo {
+    float: right;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
