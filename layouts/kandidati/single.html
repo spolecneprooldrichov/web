@@ -11,7 +11,7 @@
         {{ end }}
       {{ end }}
 
-    <h3>{{ .Params.job }} &bullet; {{ .Params.age }} let</h3>
+    <h3>{{ .Params.job | strings.FirstUpper }} &bullet; {{ .Params.age }} let</h3>
     <div class="content">{{ .Content }}</div>
   </article>
 {{ end }}
