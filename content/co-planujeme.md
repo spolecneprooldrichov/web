@@ -42,4 +42,3 @@ date: 2026-09-01
 * Zachováme participativní rozpočet a budeme dál plánovat s občany
 * Budeme se snažit nadále aktivně získávat dotace do obce
 * Komunikace a transparentnost zůstává standardem
-* Zjednodušíme komunikaci s úřadem
