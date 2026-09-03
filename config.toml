@@ -27,6 +27,11 @@ title = "Společně pro Oldřichov"
     weight = 4
 
   [[menu.main]]
+    name = "Videa"
+    url = "/videa/"
+    weight = 5
+
+  [[menu.main]]
     name = "Kontakt"
     url = "/kontakt/"
-    weight = 5
+    weight = 6
