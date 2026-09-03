@@ -3,9 +3,28 @@
   <div class="content">
     {{ .Content }}
   </div>
-  <ul>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
   {{ range .Pages }}
-    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    <div class="col">
+      <div class="card h-100">
+        {{ $photo := print "images/" .Params.photo }}
+        {{ $candidatePage := . }}
+        {{ $image := resources.Get $photo }}
+        {{ with $image }}
+          <a href="{{ $candidatePage.RelPermalink }}">
+            <img class="card-img-top" src="{{ .RelPermalink }}" 
+                  >
+          </a>
+        {{ end }}
+        <div class="card-body text-center">
+          <h5 class="card-title"><strong>{{ .Title }}</strong></h5>
+          <p class="card-text">
+            <em>{{ .Params.blurb }}</em>
+          </p>
+          <a href="{{ .RelPermalink }}" class="btn btn-primary">Více o kandidátovi</a>
+        </div>
+      </div>
+    </div>
   {{ end }}
-  </ul>
+  </div>
 {{ end }}
