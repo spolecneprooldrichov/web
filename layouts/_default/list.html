@@ -1,5 +1,10 @@
 {{ define "main" }}
   <div class="content">
+    {{ $image := .Resources.Get .Params.photo }}
+    {{ with $image }}
+        <img class="img-fluid" src="{{ .RelPermalink }}" 
+              width="{{ .Width }}" height="{{ .Height }}">
+    {{ end }}
     {{ .Content }}
   </div>
 {{ end }}
