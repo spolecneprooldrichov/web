@@ -1,7 +1,14 @@
-<nav>
-  <ul class="menu">
-  {{ range .Site.Menus.main }}
-    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-  {{ end }}
-  </ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      {{ range .Site.Menus.main }}
+        <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+      </ul>
+    </div>
+  </div>
 </nav>

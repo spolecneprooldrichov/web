@@ -7,21 +7,26 @@ title = "Společně pro Oldřichov"
 
 [menu]
   [[menu.main]]
+    name = "Domů"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
     name = "Kdo jsme"
     url = "/kandidati/"
-    weight = 1
+    weight = 2
 
   [[menu.main]]
     name = "Co jsme udělali"
     url = "/co-jsme-udelali/"
-    weight = 2
+    weight = 3
 
   [[menu.main]]
     name = "Co plánujeme"
     url = "/co-planujeme/"
-    weight = 3
+    weight = 4
 
   [[menu.main]]
     name = "Kontakt"
     url = "/kontakt/"
-    weight = 4
+    weight = 5

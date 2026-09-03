@@ -1,16 +1,36 @@
 /* Basic styles for the site */
 body { 
-    font-family: Arial, Helvetica, sans-serif; 
-    line-height: 1.6; 
-    margin:0; padding:0; 
-    color:#222; }
+    font-family: Cambria, Times, 'Times New Roman', serif;
+    font-size: 14pt;
+}
 
-.container, main { max-width:1000px; margin:0 auto; padding:1rem }
+.header { 
+    background:navy; 
+    color:#fff;
+    padding-left: 1em;
+    padding-right: 1em;
+}
 
-header{ background:#003366; color:#fff }
+.site-title { 
+    padding: 0.33em;
+    text-align: center;    
+}
 
-.site-title { margin:0; padding:.75rem 0 }
-.site-title a{ color: #fff; text-decoration:none }
+.site-title a { 
+    color: white; 
+    text-decoration:none
+}
+
+.site-title a:hover {
+    color: lightgoldenrodyellow;
+}
+
+.header h2 {
+    text-align: center;
+    font-size: 100%;
+    font-style: italic;
+    padding-bottom: 0.5em;
+}   
 
 nav .menu{ list-style:none; margin:0; padding:0; display:flex; gap:1rem }
 nav a{ color:#fff; text-decoration:none }
