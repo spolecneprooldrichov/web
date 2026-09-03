@@ -11,10 +11,12 @@
         {{ $candidatePage := . }}
         {{ $image := resources.Get $photo }}
         {{ with $image }}
+          {{ with .Fill "250x250 TopRight" }}
           <a href="{{ $candidatePage.RelPermalink }}">
             <img class="card-img-top" src="{{ .RelPermalink }}" 
                   >
           </a>
+          {{ end }}
         {{ end }}
         <div class="card-body text-center">
           <h5 class="card-title"><strong>{{ .Title }}</strong></h5>
