@@ -24,3 +24,17 @@ date: 2026-09-01
 ---
 
 {{< youtube uRwxlZH5xH0 >}}
+
+---
+
+{{< youtube BjUCs2jR_KM >}}
+
+---
+
+{{< youtube KRj6mlry0Po >}}
+
+---
+
+{{< youtube 3tsIlDODWyE >}}
+
+
